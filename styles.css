@@ -189,3 +189,33 @@ h2 {
     transform: rotateX(0deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .counter {
+    width: 6rem;
+    margin: 0 1rem;
+  }
+
+  .number {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .number p {
+    font-size: 3rem;
+    padding: 0 2px;
+  }
+
+  .top p,
+  .top-back p {
+    margin-top: 15px;
+  }
+  .bottom p,
+  .bottom-back p {
+    margin-top: -16px;
+  }
+}
