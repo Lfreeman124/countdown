@@ -55,7 +55,7 @@ var x = setInterval(function () {
   document.getElementById("minutes4").innerText = minutes;
   document.getElementById("seconds1").innerText = seconds;
   document.getElementById("seconds2").innerText = secondsBack;
-  document.getElementById("seconds3").innerText = secondsBack;
+  document.getElementById("seconds3").innerText = seconds;
   document.getElementById("seconds4").innerText = seconds;
 
   if (distance > 0) {
@@ -65,6 +65,7 @@ var x = setInterval(function () {
     document.getElementById("hours-bottom").classList.remove("flipit2");
     document.getElementById("minutes-top").classList.remove("flipit1");
     document.getElementById("minutes-bottom").classList.remove("flipit2");
+    document.getElementById("seconds3").innerText = secondsBack;
     document.getElementById("seconds-top").classList.add("flipit1");
     document.getElementById("seconds-bottom").classList.add("flipit2");
     if (seconds === 0) {
