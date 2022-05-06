@@ -23,9 +23,9 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   //adjust for saving the previous second while flipping
-  let secondsBack = seconds === 0 ? seconds + 59 : seconds - 1;
-  let minutesBack = minutes === 0 ? minutes + 59 : minutes - 1;
-  let hoursBack = hours === 0 ? hours + 23 : hours - 1;
+  let secondsBack = seconds === 0 ? 59 : seconds - 1;
+  let minutesBack = minutes === 0 ? 59 : minutes - 1;
+  let hoursBack = hours === 0 ? 23 : hours - 1;
   let daysBack = days === 0 ? 0 : days - 1;
 
   //filling in the numbers
