@@ -30,8 +30,8 @@ var x = setInterval(function () {
 
   //filling in the numbers
   document.getElementById("days1").innerText = days;
-  document.getElementById("days2").innerText = days;
-  document.getElementById("days3").innerText = daysBack;
+  document.getElementById("days2").innerText = daysBack;
+  document.getElementById("days3").innerText = days;
   document.getElementById("days4").innerText = days;
   document.getElementById("hours1").innerText = hours;
   document.getElementById("hours2").innerText = hoursBack;
